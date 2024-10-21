@@ -1,8 +1,8 @@
 {
-  "name": "common_utils",
-  "version": "1.0.0",
+  "name": "genaro-utils",
+  "version": "1.1.0",
   "description": "paquetes de utilidad para proyectos de express",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,7 @@
     "express",
     "typescript"
   ],
+  "private": false,
   "author": "GenaroMazur (https://github.com/GenaroMazur)",
   "license": "MIT",
   "bugs": {
@@ -27,6 +28,7 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "express": "^4.21.1"
   }
 }
