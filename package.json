@@ -1,0 +1,32 @@
+{
+  "name": "common_utils",
+  "version": "1.0.0",
+  "description": "paquetes de utilidad para proyectos de express",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenaroMazur/common_utils.git"
+  },
+  "keywords": [
+    "utils",
+    "express",
+    "typescript"
+  ],
+  "author": "GenaroMazur (https://github.com/GenaroMazur)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GenaroMazur/common_utils/issues"
+  },
+  "homepage": "https://github.com/GenaroMazur/common_utils#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
